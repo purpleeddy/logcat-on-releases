@@ -10,19 +10,19 @@
 </p>
 
 <p align="center">
-  <a href="https://qwerfunch.github.io/logcat-on-releases/"><img alt="Release" src="https://img.shields.io/github/v/release/qwerfunch/logcat-on-releases?display_name=tag&sort=semver"></a>
-  <a href="https://github.com/qwerfunch/logcat-on-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/qwerfunch/logcat-on-releases/total"></a>
+  <a href="https://purpleeddy.github.io/logcat-on-releases/"><img alt="Release" src="https://img.shields.io/github/v/release/purpleeddy/logcat-on-releases?display_name=tag&sort=semver"></a>
+  <a href="https://github.com/purpleeddy/logcat-on-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/purpleeddy/logcat-on-releases/total"></a>
   <img alt="Platforms" src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Free%20(Proprietary%20EULA)-blue"></a>
-  <a href="https://qwerfunch.github.io/logcat-on-releases/"><img alt="Website" src="https://img.shields.io/badge/website-logcaton-E67E22"></a>
+  <a href="https://purpleeddy.github.io/logcat-on-releases/"><img alt="Website" src="https://img.shields.io/badge/website-logcaton-E67E22"></a>
 </p>
 
 <p align="center">
-  <a href="https://qwerfunch.github.io/logcat-on-releases/"><strong>⬇️ Download</strong></a>
+  <a href="https://purpleeddy.github.io/logcat-on-releases/"><strong>⬇️ Download</strong></a>
   ·
-  <a href="https://github.com/qwerfunch/logcat-on-releases/releases">All releases</a>
+  <a href="https://github.com/purpleeddy/logcat-on-releases/releases">All releases</a>
   ·
-  <a href="https://github.com/qwerfunch/logcat-on-releases/issues/new/choose">Report an issue</a>
+  <a href="https://github.com/purpleeddy/logcat-on-releases/issues/new/choose">Report an issue</a>
 </p>
 
 ![LogcatOn main window](assets/screenshot-hero.jpg)
@@ -87,7 +87,7 @@ All of it free for personal and commercial use — see [License](#license).
 
 ## Install
 
-Grab the build for your OS from the **[release page](https://qwerfunch.github.io/logcat-on-releases/)** (or the [Releases](https://github.com/qwerfunch/logcat-on-releases/releases) tab):
+Grab the build for your OS from the **[release page](https://purpleeddy.github.io/logcat-on-releases/)** (or the [Releases](https://github.com/purpleeddy/logcat-on-releases/releases) tab):
 
 | Platform | Installer | Portable |
 |---|---|---|
@@ -114,8 +114,8 @@ Grab the build for your OS from the **[release page](https://qwerfunch.github.io
 
 The source repository is private — **this repo is the official issue tracker** for LogcatOn.
 
-- 🐛 [Report a bug](https://github.com/qwerfunch/logcat-on-releases/issues/new?template=bug_report.yml)
-- 💡 [Request a feature](https://github.com/qwerfunch/logcat-on-releases/issues/new?template=feature_request.yml)
+- 🐛 [Report a bug](https://github.com/purpleeddy/logcat-on-releases/issues/new?template=bug_report.yml)
+- 💡 [Request a feature](https://github.com/purpleeddy/logcat-on-releases/issues/new?template=feature_request.yml)
 
 When reporting a bug, please include your OS + version, the LogcatOn version (release tag), and steps to reproduce. Logs and screenshots help a lot.
 

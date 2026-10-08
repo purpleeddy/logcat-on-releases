@@ -3,7 +3,7 @@ END USER LICENSE AGREEMENT (EULA) — "Logcat On"
 Version: 1.0.0
 Effective date: the date you install or use the release this Agreement accompanies
 Applies to: Logcat On (binary/package name: logcat-on; application identifier: LogcatOn)
-Licensor: qwerfunch ("Licensor", "we", "us")
+Licensor: purpleeddy ("Licensor", "we", "us")
 Governing law: Republic of Korea
 
 Language: This Agreement is provided in English, which is the authoritative and governing version. A Korean translation may be provided separately for the convenience of Korean-speaking users; in the event of any conflict, the English version controls.
@@ -128,6 +128,6 @@ To the maximum extent permitted by applicable law, and because the Software is p
 
 13.6 (Entire agreement.) This Agreement, together with the third-party NOTICES (as to the components they cover) and any terms accompanying a particular release, is the entire agreement between you and the Licensor regarding the Software, and supersedes all prior or contemporaneous understandings on that subject.
 
-13.7 (Contact.) Questions about this Agreement may be directed to GitHub Issues (github.com/qwerfunch/logcat-on-releases/issues).
+13.7 (Contact.) Questions about this Agreement may be directed to GitHub Issues (github.com/purpleeddy/logcat-on-releases/issues).
 
 By installing or using Logcat On, you acknowledge that you have read and agree to this End User License Agreement.

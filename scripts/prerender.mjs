@@ -18,7 +18,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = join(ROOT, 'dist');
-const BASE = 'https://qwerfunch.github.io/logcat-on-releases/';
+const BASE = 'https://purpleeddy.github.io/logcat-on-releases/';
 
 const data = JSON.parse(await readFile(join(DIST, 'releases.json'), 'utf8'));
 const releases = data.releases ?? [];

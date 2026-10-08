@@ -9,7 +9,7 @@ import { STRINGS, LANG_NAMES, OS_NAMES } from './i18n.js';
 const LANGS = ['en', 'ko', 'ja', 'zh'];
 const HTML_LANG = { en: 'en', ko: 'ko', ja: 'ja', zh: 'zh-CN' };
 const DATE_LOCALE = { en: 'en-US', ko: 'ko-KR', ja: 'ja-JP', zh: 'zh-CN' };
-const SITE_BASE = 'https://qwerfunch.github.io/logcat-on-releases/';
+const SITE_BASE = 'https://purpleeddy.github.io/logcat-on-releases/';
 
 const LANG_KEY = 'logcaton.lang';
 const THEME_KEY = 'logcaton.theme';

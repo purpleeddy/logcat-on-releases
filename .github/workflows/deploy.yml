@@ -85,13 +85,13 @@ jobs:
           curl -sS -X POST "https://api.indexnow.org/indexnow" \
             -H "Content-Type: application/json; charset=utf-8" \
             -d '{
-              "host": "qwerfunch.github.io",
+              "host": "purpleeddy.github.io",
               "key": "bd7f09c5510dff62fcf2a0addf3aa865",
-              "keyLocation": "https://qwerfunch.github.io/logcat-on-releases/bd7f09c5510dff62fcf2a0addf3aa865.txt",
+              "keyLocation": "https://purpleeddy.github.io/logcat-on-releases/bd7f09c5510dff62fcf2a0addf3aa865.txt",
               "urlList": [
-                "https://qwerfunch.github.io/logcat-on-releases/",
-                "https://qwerfunch.github.io/logcat-on-releases/?lang=ko",
-                "https://qwerfunch.github.io/logcat-on-releases/?lang=ja",
-                "https://qwerfunch.github.io/logcat-on-releases/?lang=zh"
+                "https://purpleeddy.github.io/logcat-on-releases/",
+                "https://purpleeddy.github.io/logcat-on-releases/?lang=ko",
+                "https://purpleeddy.github.io/logcat-on-releases/?lang=ja",
+                "https://purpleeddy.github.io/logcat-on-releases/?lang=zh"
               ]
             }' -w "\nIndexNow HTTP %{http_code}\n" || true

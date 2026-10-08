@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "repo": "qwerfunch/logcat-on-releases",
+  "repo": "purpleeddy/logcat-on-releases",
   "generatedAt": "2026-07-25T16:41:00.941Z",
   "stats": {
     "totalDownloads": 229,
@@ -11,7 +11,7 @@
       "tag": "v1.3.0",
       "name": "LogcatOn v1.3.0",
       "publishedAt": "2026-07-22T12:56:35Z",
-      "htmlUrl": "https://github.com/qwerfunch/logcat-on-releases/releases/tag/v1.3.0",
+      "htmlUrl": "https://github.com/purpleeddy/logcat-on-releases/releases/tag/v1.3.0",
       "prerelease": false,
       "sections": [
         {
@@ -49,7 +49,7 @@
         "macos": [
           {
             "name": "LogcatOn_1.3.0_universal.dmg",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_universal.dmg",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_universal.dmg",
             "sizeBytes": 56100782,
             "arch": "universal",
             "downloadCount": 5,
@@ -58,7 +58,7 @@
           },
           {
             "name": "LogcatOn-1.3.0-macos-universal-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn-1.3.0-macos-universal-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn-1.3.0-macos-universal-portable.tar.gz",
             "sizeBytes": 54800889,
             "arch": "universal",
             "downloadCount": 2,
@@ -69,7 +69,7 @@
         "windows": [
           {
             "name": "LogcatOn_1.3.0_x64_en-US.msi",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_x64_en-US.msi",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_x64_en-US.msi",
             "sizeBytes": 42360832,
             "arch": "x64",
             "downloadCount": 2,
@@ -78,7 +78,7 @@
           },
           {
             "name": "LogcatOn_1.3.0_x64-setup.exe",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_x64-setup.exe",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_x64-setup.exe",
             "sizeBytes": 39173784,
             "arch": "x64",
             "downloadCount": 18,
@@ -87,7 +87,7 @@
           },
           {
             "name": "LogcatOn-1.3.0-windows-x64-portable.zip",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn-1.3.0-windows-x64-portable.zip",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn-1.3.0-windows-x64-portable.zip",
             "sizeBytes": 41811377,
             "arch": "x64",
             "downloadCount": 3,
@@ -98,7 +98,7 @@
         "linux": [
           {
             "name": "LogcatOn_1.3.0_amd64.AppImage",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_amd64.AppImage",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_amd64.AppImage",
             "sizeBytes": 120306168,
             "arch": "x64",
             "downloadCount": 7,
@@ -107,7 +107,7 @@
           },
           {
             "name": "LogcatOn_1.3.0_amd64.deb",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_amd64.deb",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_amd64.deb",
             "sizeBytes": 43797154,
             "arch": "x64",
             "downloadCount": 3,
@@ -116,7 +116,7 @@
           },
           {
             "name": "LogcatOn-1.3.0-1.x86_64.rpm",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn-1.3.0-1.x86_64.rpm",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn-1.3.0-1.x86_64.rpm",
             "sizeBytes": 43794846,
             "arch": "x64",
             "downloadCount": 1,
@@ -125,7 +125,7 @@
           },
           {
             "name": "LogcatOn-1.3.0-linux-x64-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn-1.3.0-linux-x64-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn-1.3.0-linux-x64-portable.tar.gz",
             "sizeBytes": 119585998,
             "arch": "x64",
             "downloadCount": 1,
@@ -138,7 +138,7 @@
       "primary": {
         "macos": {
           "name": "LogcatOn_1.3.0_universal.dmg",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_universal.dmg",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_universal.dmg",
           "sizeBytes": 56100782,
           "arch": "universal",
           "downloadCount": 5,
@@ -147,7 +147,7 @@
         },
         "windows": {
           "name": "LogcatOn_1.3.0_x64-setup.exe",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_x64-setup.exe",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_x64-setup.exe",
           "sizeBytes": 39173784,
           "arch": "x64",
           "downloadCount": 18,
@@ -156,7 +156,7 @@
         },
         "linux": {
           "name": "LogcatOn_1.3.0_amd64.AppImage",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_amd64.AppImage",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.3.0/LogcatOn_1.3.0_amd64.AppImage",
           "sizeBytes": 120306168,
           "arch": "x64",
           "downloadCount": 7,
@@ -170,16 +170,16 @@
       "tag": "v1.2.0",
       "name": "LogcatOn v1.2.0",
       "publishedAt": "2026-07-06T10:35:31Z",
-      "htmlUrl": "https://github.com/qwerfunch/logcat-on-releases/releases/tag/v1.2.0",
+      "htmlUrl": "https://github.com/purpleeddy/logcat-on-releases/releases/tag/v1.2.0",
       "prerelease": false,
       "sections": [
         {
           "title": "Added",
           "category": "added",
           "items": [
-            "<strong>Retrace</strong> — load your <code>mapping.txt</code> and read R8/ProGuard-obfuscated stack traces in place, in live streams and opened files. <img src=\"https://raw.githubusercontent.com/qwerfunch/logcat-on-releases/main/assets/1.2.0/feature_retrace.png\" alt=\"Retrace: an R8/ProGuard-obfuscated stack trace restored to original class and method names after loading mapping.txt\" loading=\"lazy\" class=\"cursor-zoom-in\" data-zoom>",
-            "<strong>Copy crash report</strong> — right-click a crash and copy a share-ready report: device, Android/app version, and the stack trace. <img src=\"https://raw.githubusercontent.com/qwerfunch/logcat-on-releases/main/assets/1.2.0/feature_copy_crash_report.png\" alt=\"Copy crash report: right-click a crash line, choose Copy crash report, and paste a ready-to-share report with device, OS and full stack trace\" loading=\"lazy\" class=\"cursor-zoom-in\" data-zoom>",
-            "<strong>Tag colors &amp; grouping</strong> — every tag gets its own color; repeated tags show once. Toggle in Settings. <img src=\"https://raw.githubusercontent.com/qwerfunch/logcat-on-releases/main/assets/1.2.0/feature_tag_colors.png\" alt=\"Tag colors &amp; grouping: every tag gets a distinct color and repeated tags collapse into one, with crash blocks outlined in the stream\" loading=\"lazy\" class=\"cursor-zoom-in\" data-zoom>",
+            "<strong>Retrace</strong> — load your <code>mapping.txt</code> and read R8/ProGuard-obfuscated stack traces in place, in live streams and opened files. <img src=\"https://raw.githubusercontent.com/purpleeddy/logcat-on-releases/main/assets/1.2.0/feature_retrace.png\" alt=\"Retrace: an R8/ProGuard-obfuscated stack trace restored to original class and method names after loading mapping.txt\" loading=\"lazy\" class=\"cursor-zoom-in\" data-zoom>",
+            "<strong>Copy crash report</strong> — right-click a crash and copy a share-ready report: device, Android/app version, and the stack trace. <img src=\"https://raw.githubusercontent.com/purpleeddy/logcat-on-releases/main/assets/1.2.0/feature_copy_crash_report.png\" alt=\"Copy crash report: right-click a crash line, choose Copy crash report, and paste a ready-to-share report with device, OS and full stack trace\" loading=\"lazy\" class=\"cursor-zoom-in\" data-zoom>",
+            "<strong>Tag colors &amp; grouping</strong> — every tag gets its own color; repeated tags show once. Toggle in Settings. <img src=\"https://raw.githubusercontent.com/purpleeddy/logcat-on-releases/main/assets/1.2.0/feature_tag_colors.png\" alt=\"Tag colors &amp; grouping: every tag gets a distinct color and repeated tags collapse into one, with crash blocks outlined in the stream\" loading=\"lazy\" class=\"cursor-zoom-in\" data-zoom>",
             "<strong>Update prompt</strong> — new versions announce themselves on launch, with release notes. Close to skip that version."
           ],
           "paragraphs": []
@@ -198,7 +198,7 @@
         "macos": [
           {
             "name": "LogcatOn_1.2.0_universal.dmg",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_universal.dmg",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_universal.dmg",
             "sizeBytes": 55555529,
             "arch": "universal",
             "downloadCount": 21,
@@ -207,7 +207,7 @@
           },
           {
             "name": "LogcatOn-1.2.0-macos-universal-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn-1.2.0-macos-universal-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn-1.2.0-macos-universal-portable.tar.gz",
             "sizeBytes": 54255710,
             "arch": "universal",
             "downloadCount": 2,
@@ -218,7 +218,7 @@
         "windows": [
           {
             "name": "LogcatOn_1.2.0_x64_en-US.msi",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_x64_en-US.msi",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_x64_en-US.msi",
             "sizeBytes": 42053632,
             "arch": "x64",
             "downloadCount": 2,
@@ -227,7 +227,7 @@
           },
           {
             "name": "LogcatOn_1.2.0_x64-setup.exe",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_x64-setup.exe",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_x64-setup.exe",
             "sizeBytes": 38938611,
             "arch": "x64",
             "downloadCount": 29,
@@ -236,7 +236,7 @@
           },
           {
             "name": "LogcatOn-1.2.0-windows-x64-portable.zip",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn-1.2.0-windows-x64-portable.zip",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn-1.2.0-windows-x64-portable.zip",
             "sizeBytes": 41508569,
             "arch": "x64",
             "downloadCount": 8,
@@ -247,7 +247,7 @@
         "linux": [
           {
             "name": "LogcatOn_1.2.0_amd64.AppImage",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_amd64.AppImage",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_amd64.AppImage",
             "sizeBytes": 120048120,
             "arch": "x64",
             "downloadCount": 4,
@@ -256,7 +256,7 @@
           },
           {
             "name": "LogcatOn_1.2.0_amd64.deb",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_amd64.deb",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_amd64.deb",
             "sizeBytes": 43511742,
             "arch": "x64",
             "downloadCount": 1,
@@ -265,7 +265,7 @@
           },
           {
             "name": "LogcatOn-1.2.0-1.x86_64.rpm",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn-1.2.0-1.x86_64.rpm",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn-1.2.0-1.x86_64.rpm",
             "sizeBytes": 43510336,
             "arch": "x64",
             "downloadCount": 0,
@@ -274,7 +274,7 @@
           },
           {
             "name": "LogcatOn-1.2.0-linux-x64-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn-1.2.0-linux-x64-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn-1.2.0-linux-x64-portable.tar.gz",
             "sizeBytes": 119327488,
             "arch": "x64",
             "downloadCount": 1,
@@ -287,7 +287,7 @@
       "primary": {
         "macos": {
           "name": "LogcatOn_1.2.0_universal.dmg",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_universal.dmg",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_universal.dmg",
           "sizeBytes": 55555529,
           "arch": "universal",
           "downloadCount": 21,
@@ -296,7 +296,7 @@
         },
         "windows": {
           "name": "LogcatOn_1.2.0_x64-setup.exe",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_x64-setup.exe",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_x64-setup.exe",
           "sizeBytes": 38938611,
           "arch": "x64",
           "downloadCount": 29,
@@ -305,7 +305,7 @@
         },
         "linux": {
           "name": "LogcatOn_1.2.0_amd64.AppImage",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_amd64.AppImage",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.2.0/LogcatOn_1.2.0_amd64.AppImage",
           "sizeBytes": 120048120,
           "arch": "x64",
           "downloadCount": 4,
@@ -319,7 +319,7 @@
       "tag": "v1.1.1",
       "name": "LogcatOn v1.1.1",
       "publishedAt": "2026-07-03T06:52:48Z",
-      "htmlUrl": "https://github.com/qwerfunch/logcat-on-releases/releases/tag/v1.1.1",
+      "htmlUrl": "https://github.com/purpleeddy/logcat-on-releases/releases/tag/v1.1.1",
       "prerelease": false,
       "sections": [
         {
@@ -368,7 +368,7 @@
         "macos": [
           {
             "name": "LogcatOn_1.1.1_universal.dmg",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_universal.dmg",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_universal.dmg",
             "sizeBytes": 55430488,
             "arch": "universal",
             "downloadCount": 5,
@@ -377,7 +377,7 @@
           },
           {
             "name": "LogcatOn-1.1.1-macos-universal-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn-1.1.1-macos-universal-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn-1.1.1-macos-universal-portable.tar.gz",
             "sizeBytes": 54101457,
             "arch": "universal",
             "downloadCount": 0,
@@ -388,7 +388,7 @@
         "windows": [
           {
             "name": "LogcatOn_1.1.1_x64_en-US.msi",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_x64_en-US.msi",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_x64_en-US.msi",
             "sizeBytes": 41975808,
             "arch": "x64",
             "downloadCount": 3,
@@ -397,7 +397,7 @@
           },
           {
             "name": "LogcatOn_1.1.1_x64-setup.exe",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_x64-setup.exe",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_x64-setup.exe",
             "sizeBytes": 38882709,
             "arch": "x64",
             "downloadCount": 2,
@@ -406,7 +406,7 @@
           },
           {
             "name": "LogcatOn-1.1.1-windows-x64-portable.zip",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn-1.1.1-windows-x64-portable.zip",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn-1.1.1-windows-x64-portable.zip",
             "sizeBytes": 41433656,
             "arch": "x64",
             "downloadCount": 0,
@@ -417,7 +417,7 @@
         "linux": [
           {
             "name": "LogcatOn_1.1.1_amd64.AppImage",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_amd64.AppImage",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_amd64.AppImage",
             "sizeBytes": 119974392,
             "arch": "x64",
             "downloadCount": 4,
@@ -426,7 +426,7 @@
           },
           {
             "name": "LogcatOn_1.1.1_amd64.deb",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_amd64.deb",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_amd64.deb",
             "sizeBytes": 43427586,
             "arch": "x64",
             "downloadCount": 2,
@@ -435,7 +435,7 @@
           },
           {
             "name": "LogcatOn-1.1.1-1.x86_64.rpm",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn-1.1.1-1.x86_64.rpm",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn-1.1.1-1.x86_64.rpm",
             "sizeBytes": 43425870,
             "arch": "x64",
             "downloadCount": 0,
@@ -444,7 +444,7 @@
           },
           {
             "name": "LogcatOn-1.1.1-linux-x64-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn-1.1.1-linux-x64-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn-1.1.1-linux-x64-portable.tar.gz",
             "sizeBytes": 119254527,
             "arch": "x64",
             "downloadCount": 0,
@@ -457,7 +457,7 @@
       "primary": {
         "macos": {
           "name": "LogcatOn_1.1.1_universal.dmg",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_universal.dmg",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_universal.dmg",
           "sizeBytes": 55430488,
           "arch": "universal",
           "downloadCount": 5,
@@ -466,7 +466,7 @@
         },
         "windows": {
           "name": "LogcatOn_1.1.1_x64-setup.exe",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_x64-setup.exe",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_x64-setup.exe",
           "sizeBytes": 38882709,
           "arch": "x64",
           "downloadCount": 2,
@@ -475,7 +475,7 @@
         },
         "linux": {
           "name": "LogcatOn_1.1.1_amd64.AppImage",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_amd64.AppImage",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.1/LogcatOn_1.1.1_amd64.AppImage",
           "sizeBytes": 119974392,
           "arch": "x64",
           "downloadCount": 4,
@@ -489,7 +489,7 @@
       "tag": "v1.1.0",
       "name": "LogcatOn v1.1.0",
       "publishedAt": "2026-06-17T05:03:23Z",
-      "htmlUrl": "https://github.com/qwerfunch/logcat-on-releases/releases/tag/v1.1.0",
+      "htmlUrl": "https://github.com/purpleeddy/logcat-on-releases/releases/tag/v1.1.0",
       "prerelease": false,
       "sections": [
         {
@@ -538,7 +538,7 @@
         "macos": [
           {
             "name": "LogcatOn_1.1.0_universal.dmg",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_universal.dmg",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_universal.dmg",
             "sizeBytes": 55429898,
             "arch": "universal",
             "downloadCount": 11,
@@ -547,7 +547,7 @@
           },
           {
             "name": "LogcatOn-1.1.0-macos-universal-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn-1.1.0-macos-universal-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn-1.1.0-macos-universal-portable.tar.gz",
             "sizeBytes": 54100718,
             "arch": "universal",
             "downloadCount": 1,
@@ -558,7 +558,7 @@
         "windows": [
           {
             "name": "LogcatOn_1.1.0_x64_en-US.msi",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_x64_en-US.msi",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_x64_en-US.msi",
             "sizeBytes": 41975808,
             "arch": "x64",
             "downloadCount": 2,
@@ -567,7 +567,7 @@
           },
           {
             "name": "LogcatOn_1.1.0_x64-setup.exe",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_x64-setup.exe",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_x64-setup.exe",
             "sizeBytes": 38882092,
             "arch": "x64",
             "downloadCount": 20,
@@ -576,7 +576,7 @@
           },
           {
             "name": "LogcatOn-1.1.0-windows-x64-portable.zip",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn-1.1.0-windows-x64-portable.zip",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn-1.1.0-windows-x64-portable.zip",
             "sizeBytes": 41432179,
             "arch": "x64",
             "downloadCount": 5,
@@ -587,7 +587,7 @@
         "linux": [
           {
             "name": "LogcatOn_1.1.0_amd64.AppImage",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_amd64.AppImage",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_amd64.AppImage",
             "sizeBytes": 119970296,
             "arch": "x64",
             "downloadCount": 1,
@@ -596,7 +596,7 @@
           },
           {
             "name": "LogcatOn_1.1.0_amd64.deb",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_amd64.deb",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_amd64.deb",
             "sizeBytes": 43427220,
             "arch": "x64",
             "downloadCount": 2,
@@ -605,7 +605,7 @@
           },
           {
             "name": "LogcatOn-1.1.0-1.x86_64.rpm",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn-1.1.0-1.x86_64.rpm",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn-1.1.0-1.x86_64.rpm",
             "sizeBytes": 43423498,
             "arch": "x64",
             "downloadCount": 2,
@@ -614,7 +614,7 @@
           },
           {
             "name": "LogcatOn-1.1.0-linux-x64-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn-1.1.0-linux-x64-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn-1.1.0-linux-x64-portable.tar.gz",
             "sizeBytes": 119248980,
             "arch": "x64",
             "downloadCount": 1,
@@ -627,7 +627,7 @@
       "primary": {
         "macos": {
           "name": "LogcatOn_1.1.0_universal.dmg",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_universal.dmg",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_universal.dmg",
           "sizeBytes": 55429898,
           "arch": "universal",
           "downloadCount": 11,
@@ -636,7 +636,7 @@
         },
         "windows": {
           "name": "LogcatOn_1.1.0_x64-setup.exe",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_x64-setup.exe",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_x64-setup.exe",
           "sizeBytes": 38882092,
           "arch": "x64",
           "downloadCount": 20,
@@ -645,7 +645,7 @@
         },
         "linux": {
           "name": "LogcatOn_1.1.0_amd64.AppImage",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_amd64.AppImage",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.1.0/LogcatOn_1.1.0_amd64.AppImage",
           "sizeBytes": 119970296,
           "arch": "x64",
           "downloadCount": 1,
@@ -659,7 +659,7 @@
       "tag": "v1.0.0",
       "name": "LogcatOn v1.0.0",
       "publishedAt": "2026-06-07T07:53:39Z",
-      "htmlUrl": "https://github.com/qwerfunch/logcat-on-releases/releases/tag/v1.0.0",
+      "htmlUrl": "https://github.com/purpleeddy/logcat-on-releases/releases/tag/v1.0.0",
       "prerelease": false,
       "sections": [
         {
@@ -709,7 +709,7 @@
         "macos": [
           {
             "name": "LogcatOn_1.0.0_universal.dmg",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_universal.dmg",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_universal.dmg",
             "sizeBytes": 55362396,
             "arch": "universal",
             "downloadCount": 34,
@@ -718,7 +718,7 @@
           },
           {
             "name": "LogcatOn-1.0.0-macos-universal-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn-1.0.0-macos-universal-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn-1.0.0-macos-universal-portable.tar.gz",
             "sizeBytes": 54050050,
             "arch": "universal",
             "downloadCount": 0,
@@ -729,7 +729,7 @@
         "windows": [
           {
             "name": "LogcatOn_1.0.0_x64_en-US.msi",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_x64_en-US.msi",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_x64_en-US.msi",
             "sizeBytes": 41943040,
             "arch": "x64",
             "downloadCount": 1,
@@ -738,7 +738,7 @@
           },
           {
             "name": "LogcatOn_1.0.0_x64-setup.exe",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_x64-setup.exe",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_x64-setup.exe",
             "sizeBytes": 38862974,
             "arch": "x64",
             "downloadCount": 15,
@@ -747,7 +747,7 @@
           },
           {
             "name": "LogcatOn-1.0.0-windows-x64-portable.zip",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn-1.0.0-windows-x64-portable.zip",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn-1.0.0-windows-x64-portable.zip",
             "sizeBytes": 41405382,
             "arch": "x64",
             "downloadCount": 3,
@@ -758,7 +758,7 @@
         "linux": [
           {
             "name": "LogcatOn_1.0.0_amd64.AppImage",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_amd64.AppImage",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_amd64.AppImage",
             "sizeBytes": 119949816,
             "arch": "x64",
             "downloadCount": 2,
@@ -767,7 +767,7 @@
           },
           {
             "name": "LogcatOn_1.0.0_amd64.deb",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_amd64.deb",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_amd64.deb",
             "sizeBytes": 43402862,
             "arch": "x64",
             "downloadCount": 1,
@@ -776,7 +776,7 @@
           },
           {
             "name": "LogcatOn-1.0.0-1.x86_64.rpm",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn-1.0.0-1.x86_64.rpm",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn-1.0.0-1.x86_64.rpm",
             "sizeBytes": 43399405,
             "arch": "x64",
             "downloadCount": 2,
@@ -785,7 +785,7 @@
           },
           {
             "name": "LogcatOn-1.0.0-linux-x64-portable.tar.gz",
-            "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn-1.0.0-linux-x64-portable.tar.gz",
+            "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn-1.0.0-linux-x64-portable.tar.gz",
             "sizeBytes": 119231755,
             "arch": "x64",
             "downloadCount": 0,
@@ -798,7 +798,7 @@
       "primary": {
         "macos": {
           "name": "LogcatOn_1.0.0_universal.dmg",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_universal.dmg",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_universal.dmg",
           "sizeBytes": 55362396,
           "arch": "universal",
           "downloadCount": 34,
@@ -807,7 +807,7 @@
         },
         "windows": {
           "name": "LogcatOn_1.0.0_x64-setup.exe",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_x64-setup.exe",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_x64-setup.exe",
           "sizeBytes": 38862974,
           "arch": "x64",
           "downloadCount": 15,
@@ -816,7 +816,7 @@
         },
         "linux": {
           "name": "LogcatOn_1.0.0_amd64.AppImage",
-          "url": "https://github.com/qwerfunch/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_amd64.AppImage",
+          "url": "https://github.com/purpleeddy/logcat-on-releases/releases/download/v1.0.0/LogcatOn_1.0.0_amd64.AppImage",
           "sizeBytes": 119949816,
           "arch": "x64",
           "downloadCount": 2,

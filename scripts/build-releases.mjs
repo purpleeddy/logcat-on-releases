@@ -21,7 +21,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const REPO = process.env.GITHUB_REPOSITORY || 'qwerfunch/logcat-on-releases';
+const REPO = process.env.GITHUB_REPOSITORY || 'purpleeddy/logcat-on-releases';
 const TOKEN = process.env.GITHUB_TOKEN || '';
 // GoatCounter 사이트 코드. assets/app.js 의 GOATCOUNTER_CODE 와 같아야 한다.
 const GOATCOUNTER_CODE = 'logcaton';
