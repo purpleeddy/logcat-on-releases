@@ -11,10 +11,9 @@
 //
 // 출력: dist/releases.json  { schemaVersion, repo, generatedAt, stats, releases: [...] }
 //
-// 방문 수도 여기서 굽는다. 클라이언트에서 goatcounter.com 을 직접 fetch 하면
-// 광고 차단기(애널리틱스 도메인은 대부분의 차단 목록에 있다)에 막혀 다수 방문자에게
-// 숫자가 아예 안 보인다. 빌드 타임 스냅샷이면 차단 여부와 무관하게 항상 표시된다.
-// 신선도는 워크플로의 일일 cron 과 릴리즈 이벤트로 유지된다.
+// GitHub Star 수는 공개 배지에 쓴다. 방문수 스냅샷과 GoatCounter 집계는
+// 기존대로 유지하되 공개 화면에서는 방문수를 표시하지 않는다.
+// 스냅샷은 워크플로의 6시간 cron 과 릴리즈 이벤트로 갱신된다.
 
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
@@ -23,6 +22,12 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const REPO = process.env.GITHUB_REPOSITORY || 'purpleeddy/logcat-on-releases';
 const TOKEN = process.env.GITHUB_TOKEN || '';
+const GITHUB_HEADERS = {
+  accept: 'application/vnd.github+json',
+  'x-github-api-version': '2022-11-28',
+  'user-agent': 'logcat-on-releases-pages-build',
+  ...(TOKEN ? { authorization: `Bearer ${TOKEN}` } : {}),
+};
 // GoatCounter 사이트 코드. assets/app.js 의 GOATCOUNTER_CODE 와 같아야 한다.
 const GOATCOUNTER_CODE = 'logcaton';
 
@@ -42,18 +47,26 @@ async function fetchVisits() {
 
 // ---------------------------------------------------------------- GitHub API
 
+// Star 수 조회 실패가 릴리즈 페이지 배포를 막지는 않는다.
+async function fetchGitHubStars() {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${REPO}`, { headers: GITHUB_HEADERS });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const { stargazers_count: count } = await res.json();
+    return Number.isSafeInteger(count) && count >= 0 ? count : null;
+  } catch (error) {
+    console.warn(`GitHub star count unavailable: ${error.message}`);
+    return null;
+  }
+}
+
 async function fetchAllReleases() {
   const all = [];
   for (let page = 1; ; page++) {
     const res = await fetch(
       `https://api.github.com/repos/${REPO}/releases?per_page=100&page=${page}`,
       {
-        headers: {
-          accept: 'application/vnd.github+json',
-          'x-github-api-version': '2022-11-28',
-          'user-agent': 'logcat-on-releases-pages-build',
-          ...(TOKEN ? { authorization: `Bearer ${TOKEN}` } : {}),
-        },
+        headers: GITHUB_HEADERS,
       },
     );
     if (res.status === 404) return []; // 레포에 릴리즈 0개 — 정상 (empty state)
@@ -245,7 +258,10 @@ function transformRelease(r) {
 
 // -------------------------------------------------------------------- main
 
-const raw = (await fetchAllReleases())
+const [allReleases, githubStars, visits] = await Promise.all([
+  fetchAllReleases(), fetchGitHubStars(), fetchVisits(),
+]);
+const raw = allReleases
   .filter((r) => !r.draft)
   .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
@@ -259,13 +275,15 @@ const totalDownloads = releases.reduce(
   0,
 );
 
-const visits = await fetchVisits();
-
 const out = {
   schemaVersion: 1,
   repo: REPO,
   generatedAt: new Date().toISOString(),
-  stats: { totalDownloads, ...(visits === null ? {} : { visits }) },
+  stats: {
+    totalDownloads,
+    ...(githubStars === null ? {} : { githubStars }),
+    ...(visits === null ? {} : { visits }),
+  },
   releases,
 };
 

@@ -101,7 +101,7 @@ body::after{
 /* ---------- 내비 ---------- */
 nav{
   position:fixed; top:0; left:0; right:0; z-index:120;
-  display:flex; align-items:center; justify-content:space-between;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
   padding:13px clamp(16px,4vw,40px);
   background:color-mix(in srgb, var(--bg) 72%, transparent);
   backdrop-filter:blur(18px) saturate(165%);
@@ -114,7 +114,7 @@ nav.stuck{ border-bottom-color:var(--line) }
 .wm span{ display:inline-flex }
 .wm i{ color:var(--brand); font-style:normal }
 .wm img{ width:25px; height:25px; border-radius:7px }
-.nav-r{ display:flex; align-items:center; gap:8px; position:relative }
+.nav-r{ display:flex; align-items:center; gap:8px; position:relative; flex:none }
 .pill{
   display:flex; align-items:center; gap:7px; font-family:var(--sans);
   font-size:12.5px; font-weight:600; color:var(--muted);
@@ -123,6 +123,10 @@ nav.stuck{ border-bottom-color:var(--line) }
 }
 .pill:hover{ color:var(--text); border-color:var(--line-2) }
 .pill svg{ width:15px; height:15px }
+.github-star{ white-space:nowrap }
+.github-star svg{ color:var(--brand-ink); flex:none }
+#githubStarCount{ font-variant-numeric:tabular-nums; padding-left:8px; border-left:1px solid var(--line-2); color:var(--text) }
+.github-star:focus-visible{ outline:2px solid var(--brand); outline-offset:3px }
 .pill.cta{ background:var(--brand); border-color:var(--brand); color:var(--cta-tx); font-weight:800 }
 .pill.cta:hover{ background:var(--brand-lit); border-color:var(--brand-lit); color:var(--cta-tx) }
 #themeBtn{ width:37px; padding:8px 0; justify-content:center }
@@ -144,6 +148,16 @@ nav.stuck{ border-bottom-color:var(--line) }
 }
 #langMenu button:hover{ background:color-mix(in srgb, var(--brand) 12%, transparent); color:var(--brand-ink) }
 #langMenu button.sel{ color:var(--brand-ink) }
+
+@media(max-width:600px){
+  .wm{ font-size:15.5px; gap:7px }
+  .wm img{ width:23px; height:23px }
+  .nav-r{ gap:6px }
+  .nav-r .pill{ padding:8px; gap:5px }
+  #themeBtn{ width:33px; padding:8px 0 }
+  #langToggleLabel,.nav-download span,.star-label{ display:none }
+  #githubStarCount{ padding-left:0; border-left:0 }
+}
 
 /* ---------- HERO ---------- */
 .hero{ padding:148px 0 88px }

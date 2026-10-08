@@ -123,6 +123,21 @@ function renderOlder(release) {
 
 // ------------------------------------------------------------ index.html 변환
 
+// Star 수를 정적으로도 표시한다. JavaScript 가 꺼져 있어도 링크와 숫자가 남는다.
+const githubStars = data.stats?.githubStars;
+if (Number.isSafeInteger(githubStars) && githubStars >= 0) {
+  const count = new Intl.NumberFormat('en-US').format(githubStars);
+  html = html.replace(
+    '<span id="githubStarCount" class="hidden"></span>',
+    `<span id="githubStarCount" data-count="${githubStars}">${count}</span>`,
+  );
+  const label = esc(`GitHub stars: ${count}`);
+  html = html.replace(
+    'title="Star on GitHub" aria-label="Star on GitHub"',
+    `title="${label}" aria-label="${label}"`,
+  );
+}
+
 // 1) 릴리즈 노트 베이크
 if (releases.length) {
   const [latest, ...older] = releases;

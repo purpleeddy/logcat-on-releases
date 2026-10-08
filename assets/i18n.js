@@ -21,6 +21,9 @@ export const STRINGS = {
       'macOS·Windows·Linux 무료 다운로드.',
 
     'nav.download': '다운로드',
+    'nav.language': '언어 선택',
+    'nav.stars': 'GitHub에서 Star 남기기',
+    'nav.starsCount': 'GitHub 스타: {count}',
     'theme.toggle': '테마 전환',
 
     'hero.badge': '{tag} · macOS · Windows · Linux',
@@ -99,6 +102,9 @@ export const STRINGS = {
       'Free download for macOS, Windows and Linux.',
 
     'nav.download': 'Download',
+    'nav.language': 'Select language',
+    'nav.stars': 'Star on GitHub',
+    'nav.starsCount': 'GitHub stars: {count}',
     'theme.toggle': 'Toggle theme',
 
     'hero.badge': '{tag} · macOS · Windows · Linux',
@@ -180,6 +186,9 @@ export const STRINGS = {
       'macOS・Windows・Linux 無料ダウンロード。',
 
     'nav.download': 'ダウンロード',
+    'nav.language': '言語を選択',
+    'nav.stars': 'GitHubでStarを付ける',
+    'nav.starsCount': 'GitHubスター: {count}',
     'theme.toggle': 'テーマ切り替え',
 
     'hero.badge': '{tag} · macOS · Windows · Linux',
@@ -261,6 +270,9 @@ export const STRINGS = {
       'macOS、Windows、Linux 免费下载。',
 
     'nav.download': '下载',
+    'nav.language': '选择语言',
+    'nav.stars': '在GitHub上点亮Star',
+    'nav.starsCount': 'GitHub星标: {count}',
     'theme.toggle': '切换主题',
 
     'hero.badge': '{tag} · macOS · Windows · Linux',

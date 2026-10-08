@@ -13,7 +13,7 @@ const SITE_BASE = 'https://purpleeddy.github.io/logcat-on-releases/';
 
 const LANG_KEY = 'logcaton.lang';
 const THEME_KEY = 'logcaton.theme';
-// GoatCounter 사이트 코드. 비어 있으면 방문 집계·표시 전체가 비활성.
+// GoatCounter 사이트 코드. 공개 화면에서 방문수를 숨겨도 집계는 계속한다.
 const GOATCOUNTER_CODE = 'logcaton';
 const THEME_COLOR = { dark: '#07080B', light: '#FFFCF4' };
 
@@ -171,6 +171,7 @@ function applyLang() {
   applyDynamicText();
   // 날짜·라벨 등 언어 의존 동적 콘텐츠는 통째로 다시 렌더
   if (state.data) render();
+  else renderGitHubStars();
 }
 
 // ------------------------------------------------------------- 릴리즈 렌더링
@@ -261,6 +262,7 @@ function renderOlder(release) {
 }
 
 function render() {
+  renderGitHubStars();
   const releases = state.data?.releases ?? [];
   const emptyEl = $('emptyState');
   const listEl = $('releases');
@@ -342,6 +344,20 @@ function ensureGoatCounter() {
 // 나중에 도착한 라이브 방문수를 매 프레임 덮어써 옛 숫자로 끝나는 문제가 있었다.
 const fmtNum = (n) => new Intl.NumberFormat(DATE_LOCALE[state.lang]).format(n);
 
+// GitHub API 조회는 빌드에서만 한다. 데이터가 없으면 숫자 없이 링크만 남긴다.
+function renderGitHubStars() {
+  const link = $('githubStars');
+  const countEl = $('githubStarCount');
+  if (!link || !countEl) return;
+  const count = state.data ? state.data.stats?.githubStars : Number(countEl.dataset.count);
+  const hasCount = Number.isSafeInteger(count) && count >= 0;
+  countEl.textContent = hasCount ? fmtNum(count) : '';
+  countEl.classList.toggle('hidden', !hasCount);
+  const label = hasCount ? t('nav.starsCount').replace('{count}', fmtNum(count)) : t('nav.stars');
+  link.title = label;
+  link.setAttribute('aria-label', label);
+}
+
 // count 가 숫자로 확정되기 전에는 숨김 — 그 외에는 0 이라도 항상 표시한다.
 function showStat(id, count) {
   const el = $(id);
@@ -364,15 +380,14 @@ function renderStats(latest) {
 
   showStat('statDownloads', state.data?.stats?.totalDownloads);
 
-  // 빌드 타임에 구워진 값을 먼저 쓴다 — 광고 차단기가 goatcounter.com 을 막아도
-  // (애널리틱스 도메인은 대부분의 차단 목록에 있다) 숫자는 항상 보인다.
+  // 집계·조회는 유지한다. 공개 방문수 요소가 없어 showStat 은 표시를 건너뛴다.
   const baked = state.data?.stats?.visits;
   showStat('statVisits', visitsCache ?? baked);
 
   if (!GOATCOUNTER_CODE) return;
   ensureGoatCounter();
   if (visitsCache !== null) return;
-  // 차단되지 않은 방문자에게는 최신값으로 갱신 — 실패해도 구운 값이 남는다.
+  // 기존 방문수 조회는 유지하되 공개 화면에는 표시하지 않는다.
   fetch(`https://${GOATCOUNTER_CODE}.goatcounter.com/counter/TOTAL.json`)
     .then((res) => (res.ok ? res.json() : null))
     .then((json) => {
